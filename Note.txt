@@ -1,0 +1,17 @@
+Step:
+1. Instal npm 
+    npm init
+2. Instal jest
+    npm install --save-dev jest
+3. Pada file package, tambahkan 
+    "scripts": {
+        "test": "jest"
+    }
+4. Buat folder dengan nama
+    __tests__
+5. Simpan file testing dalam folder no 4, dengan format
+    namafile.test.js
+6. Running test case dengan
+    npm run test
+7. Membuat report
+    npm run test -- --coverage
